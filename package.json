@@ -1,0 +1,17 @@
+{
+  "name": "stock-tops-sma",
+  "version": "2.0.0",
+  "type": "module",
+  "bin": {
+    "stock-tops": "index.js"
+  },
+  "scripts": {
+    "start": "node index.js"
+  },
+  "dependencies": {
+    "chalk": "^5.4.1",
+    "commander": "^13.1.0",
+    "table": "^6.9.0",
+    "yahoo-finance2": "^3.14.0"
+  }
+}
